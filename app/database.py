@@ -1,8 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-import psycopg2
-from psycopg2.extras import RealDictCursor
 from .config import setings
 SQLALCHEMY_DATABASE_URL = f"postgresql://{setings.database_username}:{setings.database_password}@{setings.database_hostname}:{setings.database_port}/{setings.database_name}"
 

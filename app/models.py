@@ -1,5 +1,3 @@
-from venv import create
-from wsgiref.simple_server import server_version
 from .database import Base
 from sqlalchemy.sql.expression import text
 from sqlalchemy.orm import relationship

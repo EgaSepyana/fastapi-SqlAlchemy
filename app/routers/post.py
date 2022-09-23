@@ -1,4 +1,3 @@
-from turtle import mode
 from .. import models , schemas , oauth2
 from fastapi import Response,status,HTTPException,Depends,APIRouter
 from sqlalchemy import func
